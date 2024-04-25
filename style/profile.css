@@ -42,3 +42,33 @@
   
   
 }
+
+@media (min-width: 1024px){
+
+  .profile{
+    display: flex;
+    width: 97%;
+    flex-direction: center;
+    align-items: center;
+    background-color: #d3c6c6 ;
+    border-radius: 8px;
+  }   
+
+    .imagen-profile {
+      width: 400px; 
+      height: 400px; 
+      overflow: hidden; 
+      border-radius: 0%; 
+      margin: 10px 0 0 25px;
+      margin-right: 64px;
+  }
+
+  .menu-rrss{
+    display: flex;
+    width: 100%;
+    
+  }
+
+
+
+}

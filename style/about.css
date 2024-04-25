@@ -47,3 +47,15 @@
     flex-wrap: wrap;
 }
 
+
+@media (min-width: 1024px){
+    .sobre-mi {
+        display: flex;
+        border-radius: 8px;
+
+    }
+
+    .sobre-mi h1 {
+        font-size: 35px;
+    }
+}

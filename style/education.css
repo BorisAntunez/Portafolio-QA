@@ -40,3 +40,49 @@
     font-weight: bold;
     margin: 10px 0 10px 0;
 }
+
+
+@media (min-width: 1024px){
+
+ .education {
+    background: linear-gradient( #CCCCCC, #666666, #333333,  black);
+    margin: 0;
+    width: 98%;
+    border-radius: 8px;
+ }
+
+ .education h3 {
+    color: black;
+    font-weight: bold;
+    margin: 35px;
+ }
+
+ .section-education {
+    display: flex; 
+    flex-wrap: wrap;  
+    gap: 80px;
+    justify-content: center; 
+    
+}
+
+.education-box {
+    width: 400px;
+    border-radius: 8px;
+    background-color: #666666;
+}
+
+.education-box img{
+    align-items: center;
+    margin: 45px 15px 15px 45px;
+    border-radius: 8px;
+}
+
+.education-name {
+    color: white;
+}
+
+.education-detalle{
+    color: white;
+}
+
+}
