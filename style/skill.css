@@ -37,3 +37,12 @@
     margin-top: 10px;
     color: white;
 }
+
+@media (min-width: 1024px) {
+
+    .skills{
+        width: 98%;
+        border-radius: 8px;
+        margin: 0 0 35px 0;
+    }
+}

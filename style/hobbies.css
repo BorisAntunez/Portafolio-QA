@@ -33,3 +33,32 @@
     height: auto; 
 }
 
+@media (min-width: 1024px) {
+
+    .hobbies{
+        display: flex;
+        width: 98%;
+        justify-content: center;
+        margin: 25px 0 0 0;
+        background: linear-gradient(black, #333333, #666666, #CCCCCC);
+        
+    }
+
+    .hobbies h3 {
+        color: white;
+        margin: 0;
+    }
+
+    .section-hobbies {
+        display: flex; 
+        flex-wrap: wrap;  
+        gap: 80px;
+        justify-content: center; 
+        
+    }
+
+    .hobbies-box {
+        width: 200px;
+        border-radius: 8px;
+    }
+}
