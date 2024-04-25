@@ -1,0 +1,69 @@
+.experience {
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.title-proyectos  {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.experience img {
+    height: 78%;
+    width: 100%;
+    margin: 10px 35px 15px 15px;
+}
+
+.experience-info {
+
+display: flex;
+width: 100%;
+flex-direction: row;
+gap: 25px;
+align-items: center;
+justify-content: center;
+
+}
+
+.experience__repo {
+    
+    margin: 10px 25px 10px ;
+    height: 25%;
+    width: 20%;
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.5);
+    text-align: center;
+    
+}
+
+.experience__demo{
+    margin: 10px 25px 10px ;
+    height: 25%;
+    width: 20%;
+    border: 2px solid blue;
+     border-radius: 8px;
+     padding: 10px;
+     background-color: rgba(0, 0, 255, 0.5);
+     text-align: center;
+    
+}
+
+.experiencia__botao--repo {
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+}
+
+.experience__botao--demo {
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;  
+}
